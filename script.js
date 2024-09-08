@@ -93,6 +93,9 @@ function updateDisplay(...args) { display.innerText = currentOperand; }*/
 /**
  * Updates the display with the current operand.
  */
-
+button = 'PressMe';
+function updateDisplay() {
+    display.innerText = currentOperand;
+}
 
 
