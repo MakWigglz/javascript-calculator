@@ -89,8 +89,10 @@ function clearDisplay() {
 }
 
 /**
+function updateDisplay(...args) { display.innerText = currentOperand; }*/
+/**
  * Updates the display with the current operand.
  */
-function updateDisplay() {
-    display.innerText = currentOperand;
-}
+
+
+
