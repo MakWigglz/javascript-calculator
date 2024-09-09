@@ -97,5 +97,9 @@ button = 'PressMe';
 function updateDisplay() {
     display.innerText = currentOperand;
 }
-
+// Link the CSS file to the HTML
+const link = document.createElement('link');
+link.rel = 'stylesheet';
+link.href = '/path/to/your/css/file.css';
+document.head.appendChild(link);
 
